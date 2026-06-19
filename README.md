@@ -26,3 +26,21 @@ for i in range(N):
         
     hash_value = hash_value % 23 
     print(hash_value)
+
+    #paiza test b decording
+
+    N = int(input())
+
+lis = list(input().split())
+
+l=[]
+
+for i in range(N):
+    l.append(int(len(lis[i])))
+    
+mx = max(l)
+mn = min(l)
+
+result = mx - mn
+
+print(result)
