@@ -37,6 +37,9 @@ l=[]
 
 for i in range(N):
     l.append(int(len(lis[i])))
+
+
+    #paiza learning 
     
 mx = max(l)
 mn = min(l)
